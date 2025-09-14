@@ -1,7 +1,8 @@
 import requests
 
 url = "http://127.0.0.1:5000/predict"
-image_path = r"D:\projects\Receipts_Detection_OD\artifacts\val_test_2.png"
+image_path = r"C:\Users\Parit\Downloads\INVOICES_page-0001.jpg"
+
 with open(image_path, "rb") as f:
     files = {"image": f}
     response = requests.post(url, files=files)

@@ -11,4 +11,5 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 MODEL_PATH = os.path.join(ROOT, artifact, "model.pth")
-CONFIDENCE_THRESHOLD = 0.9
+print(MODEL_PATH)
+CONFIDENCE_THRESHOLD = 0.8
