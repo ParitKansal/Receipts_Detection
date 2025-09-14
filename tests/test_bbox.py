@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 url = "http://127.0.0.1:8888/predict"
 
 # Input and Output Folders
-input_folder = r"D:\projects\Receipts_Detection_OD-main\tests\images"
+input_folder = r"tests\test_images"
 output_folder = r"D:\projects\Receipts_Detection_OD-main\tests\images_output"
 
 # Create output folder if it doesn't exist
