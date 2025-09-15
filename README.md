@@ -273,12 +273,6 @@ CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8888"]
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
-
-- PyTorch and Torchvision for the deep learning framework
-- FastAPI for the web framework
-- Mask R-CNN implementation for object detection
-
 ## 📞 Support
 
 For questions and support:
