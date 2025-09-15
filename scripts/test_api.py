@@ -1,7 +1,7 @@
 import requests
 
-url = "http://127.0.0.1:5000/predict"
-image_path = r"C:\Users\Parit\Downloads\INVOICES_page-0001.jpg"
+url = "http://127.0.0.1:8888/predict"
+image_path = r"data\raw\unnamed (1).webp"
 
 with open(image_path, "rb") as f:
     files = {"image": f}

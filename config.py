@@ -10,6 +10,6 @@ LOGFILE_DIR = os.path.join(ROOT, LOG_DIR, LOG_FILE)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-MODEL_PATH = os.path.join(ROOT, artifact, "model.pth")
+MODEL_PATH = os.path.join(ROOT, "models", "model.pth")
 print(MODEL_PATH)
 CONFIDENCE_THRESHOLD = 0.8
