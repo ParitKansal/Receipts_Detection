@@ -173,24 +173,6 @@ Modify `app.py` to change:
 uvicorn.run("app:app", host="0.0.0.0", port=8888)
 ```
 
-## 📊 Performance
-
-### Detection Accuracy
-
-| Image Type | Success Rate | Avg Confidence |
-|------------|--------------|----------------|
-| Single Receipt | 95% | 0.92 |
-| Multiple Receipts | 88% | 0.87 |
-| Complex Documents | 82% | 0.81 |
-
-### Processing Times
-
-| Image Size | CPU Time | GPU Time |
-|------------|----------|----------|
-| 640x480 | 300ms | 80ms |
-| 1280x960 | 500ms | 120ms |
-| 1920x1440 | 800ms | 180ms |
-
 ## 📚 Documentation
 
 - **[API Reference](docs/API_REFERENCE.md)**: Complete API documentation
